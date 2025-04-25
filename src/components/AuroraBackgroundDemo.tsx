@@ -2,7 +2,6 @@
 
 import { motion } from "motion/react";
 import React from "react";
-import Image from "next/image";
 import { AuroraBackground } from "./ui/aurora-background";
 import { CardSpotlightDemo } from "./CardSpotlightDemo";
 import { ThreeDCardDemo } from "./ThreeDCardDemo";

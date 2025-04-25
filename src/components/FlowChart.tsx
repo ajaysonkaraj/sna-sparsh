@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function FlowChart(){
   const boxStyle =
-  " flex items-center justify-center text-slate-500 text-sm p-4 h-20 w-full rounded-xl shadow-xl font-medium bg-gradient-to-r from-white via-white to-white my-5 ";
+  " flex items-center justify-center text-slate-600 text-sm font-bold p-4 h-20 w-full rounded-xl shadow-2xl  bg-slate-50 my-5 ";
 const arrowStyle = "flex justify-center items-center text-slate-500"
 const colOddStyle = "flex flex-col md:w-1/4 text-center"
 const colEvenStyle = "flex flex-col-reverse md:flex-col md:w-1/4 md:text-center "
