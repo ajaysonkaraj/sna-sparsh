@@ -10,7 +10,7 @@ export function SchemeImage(){
 
     return (
         <div>
-            <Image src={SchemeImg} alt="Schemes"   height={500}
+            <Image src={SchemeImg} alt="Schemes"   height={450}
             draggable={false}/>
         </div>
     )

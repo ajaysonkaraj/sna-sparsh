@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import React from "react";
 import { AuroraBackground } from "./ui/aurora-background";
 import { CardSpotlightDemo } from "./CardSpotlightDemo";
-import { ThreeDCardDemo } from "./ThreeDCardDemo";
+import { SchemeImage } from "./SchemesImage";
 // import PaymentImage from "../../public/images/home/Payment_Flow.mp4"
 
 export function AuroraBackgroundDemo() {
@@ -24,7 +24,7 @@ export function AuroraBackgroundDemo() {
       >
         <div className="flex gap-10  justify-around flex-col md:flex-row" >
           <div className="lg:w-2/5  flex lg:justify-center justify-center    ">
-            <ThreeDCardDemo  />
+            <SchemeImage/>
           </div>
           
           <div className="lg:w-2/5 md:w-1/2 flex lg:items-center md:order-2 items-center ">

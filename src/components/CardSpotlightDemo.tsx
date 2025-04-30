@@ -2,7 +2,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 export function CardSpotlightDemo() {
   return (
-    <CardSpotlight className="h-auto md:h-[580px]">
+    <CardSpotlight className="h-auto md:h-[380px]">
       <p className="text-4xl font-bold relative z-20 mt-2 text-white text-center">
         WHAT IS IT?
       </p>
